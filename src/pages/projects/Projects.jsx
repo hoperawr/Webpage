@@ -1,9 +1,7 @@
 import React from "react";
-import website from "./website.jpg";
 import project5_image from "./project5.png";
 import project3_image from "./project3.png";
 import project4_image from "./project4.png";
-import YouTube from "react-youtube";
 
 const Projects = () => {
   const project1 = (
@@ -16,12 +14,15 @@ const Projects = () => {
         >
           <img
             className="project_link_image"
-            src={"/src/assets/github_link.png"}
+            src={"/src/pages/projects/github_link.png"}
           ></img>
         </a>
       </div>
       <div className="project_box_image_text">
-        <img src={website} className="project_image"></img>
+        <img
+          src={"/src/pages/projects/project1.png"}
+          className="project_image"
+        ></img>
         <main className="project_text">
           <p>
             Developed a responsive portfolio website using React.js and CSS to
@@ -53,7 +54,7 @@ const Projects = () => {
         >
           <img
             className="project_link_image"
-            src={"/src/assets/github_link.png"}
+            src={"/src/pages/projects/github_link.png"}
           ></img>
         </a>
       </div>
@@ -120,7 +121,7 @@ const Projects = () => {
         >
           <img
             className="project_link_image"
-            src={"/src/assets/github_link.png"}
+            src={"/src/pages/projects/github_link.png"}
           ></img>
         </a>
       </div>
@@ -153,7 +154,7 @@ const Projects = () => {
         >
           <img
             className="project_link_image"
-            src={"/src/assets/github_link.png"}
+            src={"/src/pages/projects/github_link.png"}
           ></img>
         </a>
       </div>

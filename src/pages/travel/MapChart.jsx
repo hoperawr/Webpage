@@ -30,63 +30,63 @@ const MapChart = () => {
   };
   var images = {
     Indonesia: [
-      "/src/pages/travel/photos/indo_1.jpg",
-      "/src/pages/travel/photos/indo_2.jpg",
-      "/src/pages/travel/photos/indo_3.jpg",
-      "/src/pages/travel/photos/indo_4.jpg",
+      "/src/pages/travel/indo_1.jpg",
+      "/src/pages/travel/indo_2.jpg",
+      "/src/pages/travel/indo_3.jpg",
+      "/src/pages/travel/indo_4.jpg",
     ],
     Japan: [
-      "/src/pages/travel/photos/japan_1.jpg",
-      "/src/pages/travel/photos/japan_2.jpg",
-      "/src/pages/travel/photos/japan_3.jpg",
+      "/src/pages/travel/japan_1.jpg",
+      "/src/pages/travel/japan_2.jpg",
+      "/src/pages/travel/japan_3.jpg",
     ],
     "South Korea": [
-      "/src/pages/travel/photos/korea_1.jpg",
-      "/src/pages/travel/photos/korea_2.jpg",
-      "/src/pages/travel/photos/korea_3.jpg",
-      "/src/pages/travel/photos/korea_4.jpg",
+      "/src/pages/travel/korea_1.jpg",
+      "/src/pages/travel/korea_2.jpg",
+      "/src/pages/travel/korea_3.jpg",
+      "/src/pages/travel/korea_4.jpg",
     ],
     Malaysia: [
-      "/src/pages/travel/photos/malaysia_1.jpg",
-      "/src/pages/travel/photos/malaysia_2.jpg",
+      "/src/pages/travel/malaysia_1.jpg",
+      "/src/pages/travel/malaysia_2.jpg",
     ],
     Nepal: [
-      "/src/pages/travel/photos/nepal_1.jpg",
-      "/src/pages/travel/photos/nepal_2.jpg",
-      "/src/pages/travel/photos/nepal_3.jpg",
-      "/src/pages/travel/photos/nepal_4.jpg",
-      "/src/pages/travel/photos/nepal_5.jpg",
-      "/src/pages/travel/photos/nepal_6.jpg",
-      "/src/pages/travel/photos/nepal_7.jpg",
+      "/src/pages/travel/nepal_1.jpg",
+      "/src/pages/travel/nepal_2.jpg",
+      "/src/pages/travel/nepal_3.jpg",
+      "/src/pages/travel/nepal_4.jpg",
+      "/src/pages/travel/nepal_5.jpg",
+      "/src/pages/travel/nepal_6.jpg",
+      "/src/pages/travel/nepal_7.jpg",
     ],
     Philippines: [
-      "/src/pages/travel/photos/philippines_1.jpg",
-      "/src/pages/travel/photos/philippines_2.jpg",
-      "/src/pages/travel/photos/philippines_3.jpg",
+      "/src/pages/travel/philippines_1.jpg",
+      "/src/pages/travel/philippines_2.jpg",
+      "/src/pages/travel/philippines_3.jpg",
     ],
     Taiwan: [
-      "/src/pages/travel/photos/taiwan_1.jpg",
-      "/src/pages/travel/photos/taiwan_2.jpg",
-      "/src/pages/travel/photos/taiwan_3.jpg",
-      "/src/pages/travel/photos/taiwan_4.jpg",
-      "/src/pages/travel/photos/taiwan_5.jpg",
+      "/src/pages/travel/taiwan_1.jpg",
+      "/src/pages/travel/taiwan_2.jpg",
+      "/src/pages/travel/taiwan_3.jpg",
+      "/src/pages/travel/taiwan_4.jpg",
+      "/src/pages/travel/taiwan_5.jpg",
     ],
     Thailand: [
-      "/src/pages/travel/photos/thailand_1.jpg",
-      "/src/pages/travel/photos/thailand_2.jpg",
-      "/src/pages/travel/photos/thailand_3.jpg",
-      "/src/pages/travel/photos/thailand_4.jpg",
-      "/src/pages/travel/photos/thailand_5.jpg",
-      "/src/pages/travel/photos/thailand_6.jpg",
+      "/src/pages/travel/thailand_1.jpg",
+      "/src/pages/travel/thailand_2.jpg",
+      "/src/pages/travel/thailand_3.jpg",
+      "/src/pages/travel/thailand_4.jpg",
+      "/src/pages/travel/thailand_5.jpg",
+      "/src/pages/travel/thailand_6.jpg",
     ],
     Vietnam: [
-      "/src/pages/travel/photos/vietnam_1.jpg",
-      "/src/pages/travel/photos/vietnam_2.jpg",
-      "/src/pages/travel/photos/vietnam_3.jpg",
-      "/src/pages/travel/photos/vietnam_4.jpg",
-      "/src/pages/travel/photos/vietnam_5.jpg",
-      "/src/pages/travel/photos/vietnam_6.jpg",
-      "/src/pages/travel/photos/vietnam_7.jpg",
+      "/src/pages/travel/vietnam_1.jpg",
+      "/src/pages/travel/vietnam_2.jpg",
+      "/src/pages/travel/vietnam_3.jpg",
+      "/src/pages/travel/vietnam_4.jpg",
+      "/src/pages/travel/vietnam_5.jpg",
+      "/src/pages/travel/vietnam_6.jpg",
+      "/src/pages/travel/vietnam_7.jpg",
     ],
   };
 
@@ -151,7 +151,10 @@ const MapChart = () => {
             className="popup_button_arrow_left"
             onClick={navigateToPreviousPhoto}
           >
-            <img className="popup_arrow" src="/src/assets/left_arrow.png"></img>
+            <img
+              className="popup_arrow"
+              src="/src/pages/travel/left_arrow.png"
+            ></img>
           </button>
           <img
             className="popup_image"
@@ -163,7 +166,7 @@ const MapChart = () => {
           >
             <img
               className="popup_arrow"
-              src="/src/assets/right_arrow.png"
+              src="/src/pages/travel/right_arrow.png"
             ></img>
           </button>
         </div>

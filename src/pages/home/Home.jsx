@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import image1 from "./banner2.jpg";
-import home_2 from "/src/assets/home_2.jpg";
 
 const Home = () => {
   const text1 =
@@ -10,7 +9,11 @@ const Home = () => {
       <img className="home_image_1" src={image1} alt="Nepal" />
       <main className="home_box">
         <p className="home_text">{text1}</p>
-        <img className="home_image_2" src={home_2} alt="Chiang Mai"></img>
+        <img
+          className="home_image_2"
+          src={"/src/pages/home/home_2.jpg"}
+          alt="Chiang Mai"
+        ></img>
       </main>
     </div>
   );

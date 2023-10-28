@@ -1,7 +1,5 @@
 import React from "react";
 import Popup from "reactjs-popup";
-import test from "/src/assets/home_2.jpg";
-import ModalImage from "react-modal-image";
 
 const Sports = () => {
   return (

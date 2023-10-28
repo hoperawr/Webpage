@@ -9,13 +9,13 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/hopeleong/">
             <img
               className="footer_button_image"
-              src="/src/assets/linkedin.jpg"
+              src="/src/components/linkedin.jpg"
             ></img>
           </a>
           <a href="https://github.com/hoperawr">
             <img
               className="footer_button_image"
-              src="/src/assets/github.png"
+              src="/src/components/github.png"
             ></img>
           </a>
         </div>
