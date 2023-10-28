@@ -1,0 +1,33 @@
+Homepage
+  short bio
+  some photos
+  links to some projects 
+  interests
+  bla bla
+About me
+Travel
+  World Map With countries travelled
+  Pictures
+Sports
+  Tchoukball
+
+  
+
+  Chess
+  Soccer
+  Hiking
+Projects
+  Link to github
+  Furget me not
+  SPA
+  Talk about other projects
+Games
+  Chess
+  TFT
+  Valorant
+
+
+ideas:
+  welcome intro for top of Homepage
+  footer
+  hyperlink stuff in texts

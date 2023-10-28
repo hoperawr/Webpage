@@ -1,0 +1,395 @@
+/* Nav Bar */
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  /* background: linear-gradient(172deg, rgba(24,74,143,1) 0%, rgba(79,123,152,1) 42%, rgba(86,130,153,1) 51%, rgba(95,138,155,1) 56%, rgba(98,141,155,1) 65%, rgba(104,146,156,1) 73%, rgba(76,72,58,1) 89%, rgba(87,80,63,1) 92%, rgba(112,98,74,1) 94%, rgba(123,106,79,1) 95%, rgba(134,114,84,1) 96%, rgba(155,129,93,1) 98%); */
+  /* background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+  /* background-image: linear-gradient(to left, #fff1eb 9%, #ace0f9 100%); */
+  background-color:#FAF9F6 ;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+ }
+
+.header-font-link {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav {
+  position: static;
+  background-color: transparent;
+  height: 5rem;
+  width: 20rem;
+  display: flex;
+  margin-top:2rem;
+  margin-left: 3rem;
+  /* left: 50%;
+  transform: translateX(-50%); */
+  
+}
+
+.site-title {
+  position:static;
+  margin:0; padding:0;
+  margin-right: 1rem;
+  font-style: normal;
+  /* text-decoration: underline; */
+  font-size: 3rem;
+  display: flex;
+  /* left:50%;
+  transform: translateX(-50%); */
+}
+
+.nav ul {
+  position:static;
+  font-size: 1.25rem;
+  margin:0; padding:0;
+  list-style-type: none;
+  display:flex;
+  gap: 1rem;
+  /* left:50%;
+  transform: translateX(-50%); */
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+
+.nav li.active {
+  text-decoration: underline;
+}
+
+.nav li:hover {
+  text-decoration: underline;
+}
+
+
+/* General Component */
+.component {
+  display:grid;
+  text-align: center;
+  font-size: 1.5rem;
+  min-height: 100vh;
+}
+
+.component_header {
+  font-size: 4rem;
+  text-align: center;
+  margin-top:2rem;
+  margin-bottom: 5rem;
+}
+
+
+/* Home Page */
+.home_image_1 {
+  position: relative;
+  margin:0;
+  padding:0;
+  left:0;
+  margin-top:-13.5rem;
+  width: 100vw;
+  height: auto;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.home_box {
+  display:flex;
+  flex-direction: row;
+  position: static;
+  margin:3rem;
+  height: 50vh;
+  min-height: 25rem;
+  justify-content: center;
+  align-items:center;
+  gap:1.5rem;
+}
+
+.home_image_2 {
+  height: 50vh;
+  min-height: 25rem;
+}
+
+
+.home_text {
+  width:50vw;
+  min-width:20rem;
+}
+
+
+/* About Page */
+
+.about_image {
+  height: 75vh;
+  float: left;
+}
+
+.about_box {
+  display:flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin:3rem;
+  gap:2rem;
+}
+
+/* Projects Page */
+
+.project_box {
+  display:grid;
+}
+
+.project_subheader_box {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+
+.project_sub_header {
+  display:block;
+  font-size: 2rem;
+}
+.project_link_button {
+  display: flex;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.project_link_image {
+  width:2rem;
+}
+
+.project_box_image_text {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:1rem;
+}
+
+.project_text {
+  width:50rem;
+  text-align: center;
+}
+
+.project_image {
+  height: 25rem;
+  margin: 1rem;
+}
+
+/* Travel Page */
+.popup_image {
+  height:70vh;
+  width:auto;
+  justify-content: "center";
+  align-items: center;
+  align-content: center;
+}
+
+.popup_button {
+  display:block;
+  width:8vw;
+  height:4vh;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  margin: 0.75vh;
+  cursor: pointer;
+  position:relative;
+  left:50%;
+  transform: translateX(-50%);
+}
+.popup_arrow {
+  height:2rem;
+  width:2.5rem;
+}
+.popup_button_arrow_left {
+ position: sticky;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.popup_button_arrow_right {
+  position: sticky;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+/* Sports Page */
+.sport_box {
+  display:grid;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.sport_text{
+  margin:3rem;
+}
+.sports_video_box {
+  display:flex;
+  justify-content: center;
+}
+
+.sports_video {
+  height: 30rem;
+  width:50rem;
+  
+}
+.sport_image_box{
+  display:flex;
+  width:100%;
+  gap:2rem;
+  justify-content: center;
+}
+.sport_image {
+  height:50vh;
+  width:auto;
+}
+
+/* Games Page */
+
+.game_main {
+ display:flex;
+}
+
+.game_nav {
+  height:100%;
+  row-gap: 2rem;
+  margin: 2rem;
+}
+.game_nav ul {
+ list-style-type: none;
+ display:grid;
+ gap:1rem;
+}
+
+.game_nav a {
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  align-items: center;
+  padding: .25rem;
+}
+
+.game_nav li.active {
+  text-decoration: underline;
+}
+
+.game_nav li:hover {
+  text-decoration: underline;
+}
+
+.game_writeup {
+  margin:4rem;
+}
+
+.game_component {
+  width:100%;
+  display:grid;
+}
+
+.chess_nav {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.chess_nav ul {
+  position:static;
+  font-size: 1.25rem;
+  margin:0; padding:0;
+  list-style-type: none;
+  display:flex;
+  gap: 1rem;
+  /* left:50%;
+  transform: translateX(-50%); */
+}
+
+.chess_nav a {
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  align-items: center;
+  padding: .25rem;
+}
+
+.chess_nav li.active {
+  text-decoration: underline;
+}
+
+.chess_nav li:hover {
+  text-decoration: underline;
+}
+
+.game_subcomponent {
+  display:grid;
+}
+
+.game_graph {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:20rem;
+  width:100%;
+}
+.tft_image_box {
+  display:grid;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.tft_image {
+  height:40vh;
+  position: relative;
+}
+
+/* Footer */
+.footer {
+  height:auto;
+  display:block;
+  position: relative;
+  bottom:0;
+  text-align: center;
+  margin: 0;
+  background: black;
+  justify-content: center;
+}
+
+.footer_text {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer_header {
+  color: white;
+}
+
+.footer_buttons {
+  display: block;
+  gap:3rem;
+}
+
+.footer_button_image {
+  height:3rem;
+  width:3rem;
+  margin: 2rem;
+}
+
+.footer_quote {
+  color: white;
+}
+
+.footer_name {
+  color: white;
+}
