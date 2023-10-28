@@ -1,5 +1,11 @@
 import React from "react";
 import Popup from "reactjs-popup";
+import chess1 from "/src/pages/sports/chess.jpeg";
+import nus1 from "/src/pages/sports/nus_1.jpg";
+import nus2 from "/src/pages/sports/nus_2.jpg";
+import nus3 from "/src/pages/sports/nus_3.jpg";
+import nus4 from "/src/pages/sports/nus_4.jpg";
+import hwach from "/src/pages/sports/hwach.jpg";
 
 const Sports = () => {
   return (
@@ -36,8 +42,8 @@ const Sports = () => {
           Tchoukball at Genesis Tchoukball Club which represents Ang Mo Kio CC.
         </div>
         <div className="sport_image_box">
-          <img className="sport_image" src={"src/pages/sports/hwach.jpg"}></img>
-          <img className="sport_image" src={"src/pages/sports/nus_3.jpg"}></img>
+          <img className="sport_image" src={hwach}></img>
+          <img className="sport_image" src={nus3}></img>
         </div>
         <div className="sport_text">
           Through Tchoukball, I have learned the importance of teamwork,
@@ -49,9 +55,9 @@ const Sports = () => {
         </div>
 
         <div className="sport_image_box">
-          <img className="sport_image" src={"src/pages/sports/nus_2.jpg"}></img>
-          <img className="sport_image" src={"src/pages/sports/nus_1.jpg"}></img>
-          <img className="sport_image" src={"src/pages/sports/nus_4.jpg"}></img>
+          <img className="sport_image" src={nus2}></img>
+          <img className="sport_image" src={nus1}></img>
+          <img className="sport_image" src={nus4}></img>
         </div>
       </div>
 
@@ -69,10 +75,7 @@ const Sports = () => {
           the game.
         </div>
         <div className="sport_image_box">
-          <img
-            className="sport_image"
-            src={"src/pages/sports/chess.jpeg"}
-          ></img>
+          <img className="sport_image" src={chess1}></img>
         </div>
       </div>
     </div>

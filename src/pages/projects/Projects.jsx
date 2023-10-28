@@ -2,6 +2,7 @@ import React from "react";
 import project5_image from "./project5.png";
 import project3_image from "./project3.png";
 import project4_image from "./project4.png";
+import project1_image from "/src/pages/projects/github_link.png";
 
 const Projects = () => {
   const project1 = (
@@ -12,10 +13,7 @@ const Projects = () => {
           className="project_link_button"
           href="https://github.com/hoperawr/Fur-get-Me-Not/tree/main"
         >
-          <img
-            className="project_link_image"
-            src={"/src/pages/projects/github_link.png"}
-          ></img>
+          <img className="project_link_image" src={project1_image}></img>
         </a>
       </div>
       <div className="project_box_image_text">

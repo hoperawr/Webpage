@@ -1,4 +1,6 @@
 import React from "react";
+import linkedin from "/src/components/linkedin.jpg";
+import github from "/src/components/github.png";
 
 const Footer = () => {
   return (
@@ -7,16 +9,10 @@ const Footer = () => {
         <span className="footer_header">get in touch.</span>
         <div className="footer_buttons">
           <a href="https://www.linkedin.com/in/hopeleong/">
-            <img
-              className="footer_button_image"
-              src="/src/components/linkedin.jpg"
-            ></img>
+            <img className="footer_button_image" src={linkedin}></img>
           </a>
           <a href="https://github.com/hoperawr">
-            <img
-              className="footer_button_image"
-              src="/src/components/github.png"
-            ></img>
+            <img className="footer_button_image" src={github}></img>
           </a>
         </div>
 

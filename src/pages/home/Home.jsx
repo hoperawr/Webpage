@@ -1,19 +1,16 @@
 import React, { useState, useRef, useEffect } from "react";
-import image1 from "./banner2.jpg";
+import home1 from "./banner2.jpg";
+import home2 from "/src/pages/home/home_2.jpg";
 
 const Home = () => {
   const text1 =
     "Welcome to my website! I'm Hope Leong, a recent Computer Science graduate from National University of Singapore. I am constantly seeking new opportunities to learn more about technology and I hope to use my skills to leave a positive impact on society.";
   return (
     <div>
-      <img className="home_image_1" src={image1} alt="Nepal" />
+      <img className="home_image_1" src={home1} alt="Nepal" />
       <main className="home_box">
         <p className="home_text">{text1}</p>
-        <img
-          className="home_image_2"
-          src={"/src/pages/home/home_2.jpg"}
-          alt="Chiang Mai"
-        ></img>
+        <img className="home_image_2" src={home2} alt="Chiang Mai"></img>
       </main>
     </div>
   );
