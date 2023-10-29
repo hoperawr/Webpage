@@ -6,7 +6,7 @@ import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
 import Sports from "./pages/sports/Sports";
 import Travel from "./pages/travel/Travel";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Chess from "./pages/games/Chess";
 import TFT from "./pages/games/TFT";
@@ -17,7 +17,8 @@ const App = () => {
       <Navbar />
       <div className="component">
         <Routes>
-          <Route path="" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/Webpage" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
           <Route path="/travel" element={<Travel />}></Route>
