@@ -2,7 +2,8 @@ import React from "react";
 import project5_image from "./project5.png";
 import project3_image from "./project3.png";
 import project4_image from "./project4.png";
-import project1_image from "/src/pages/projects/github_link.png";
+import project1_image from "/src/pages/projects/project1.png";
+import github from "/src/pages/projects/github_link.png";
 
 const Projects = () => {
   const project1 = (
@@ -13,14 +14,11 @@ const Projects = () => {
           className="project_link_button"
           href="https://github.com/hoperawr/Fur-get-Me-Not/tree/main"
         >
-          <img className="project_link_image" src={project1_image}></img>
+          <img className="project_link_image" src={github}></img>
         </a>
       </div>
       <div className="project_box_image_text">
-        <img
-          src={"/src/pages/projects/project1.png"}
-          className="project_image"
-        ></img>
+        <img src={project1_image} className="project_image"></img>
         <main className="project_text">
           <p>
             Developed a responsive portfolio website using React.js and CSS to
@@ -50,10 +48,7 @@ const Projects = () => {
           className="project_link_button"
           href="https://github.com/hoperawr/Fur-get-Me-Not/tree/main"
         >
-          <img
-            className="project_link_image"
-            src={"/src/pages/projects/github_link.png"}
-          ></img>
+          <img className="project_link_image" src={github}></img>
         </a>
       </div>
       <div className="project_box_image_text">
@@ -117,10 +112,7 @@ const Projects = () => {
           className="project_link_button"
           href="https://github.com/hoperawr/SPA"
         >
-          <img
-            className="project_link_image"
-            src={"/src/pages/projects/github_link.png"}
-          ></img>
+          <img className="project_link_image" src={github}></img>
         </a>
       </div>
       <div className="project_box_image_text">
@@ -150,10 +142,7 @@ const Projects = () => {
           className="project_link_button"
           href="https://github.com/hoperawr/CS4243_Project"
         >
-          <img
-            className="project_link_image"
-            src={"/src/pages/projects/github_link.png"}
-          ></img>
+          <img className="project_link_image" src={github}></img>
         </a>
       </div>
       <div className="project_box_image_text">
